@@ -14,7 +14,7 @@
     if ($username == $usernamelogin && $password == $passwordlogin) {
         session_start();
         $_SESSION['username'] = $username;
-        header("Location: ../../tugas1/flowchart.php");
+        header("Location: tempatfiletujuan");
     } 
     else {
         header("Location: login.php");
